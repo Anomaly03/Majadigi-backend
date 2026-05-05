@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -30,3 +31,7 @@ Route::middleware(['auth:sanctum'])->prefix('v1')->group(function () {
     Route::apiResource('cores', CoreController::class)->names('core');
     // Rute lain yang butuh login taruh di bawah sini
 });
+=======
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
+>>>>>>> upstream/main
